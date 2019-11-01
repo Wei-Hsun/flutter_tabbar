@@ -12,21 +12,21 @@ class CYTabBarController extends StatefulWidget {
 
 class _CYTabBarControllerState extends State<CYTabBarController> with SingleTickerProviderStateMixin {
 
-  TabController tabController;
+  // TabController tabController;
 
   int currentIndex = 0;
 
 
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    tabController = TabController(
-      length: 4,
-      vsync: this,
-    );
-    super.initState();
-  }
+  // @override
+  // void initState() {
+  //   // TODO: implement initState
+  //   tabController = TabController(
+  //     length: 4,
+  //     vsync: this,
+  //   );
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -62,10 +62,10 @@ class _CYTabBarControllerState extends State<CYTabBarController> with SingleTick
     );
   }
 
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    tabController.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   // TODO: implement dispose
+  //   tabController.dispose();
+  //   super.dispose();
+  // }
 }
